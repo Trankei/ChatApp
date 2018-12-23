@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^2.2.0"
+    "@types/node": "^10.12.18",
+    "socket.io": "^2.2.0",
+    "typescript": "^3.2.2"
   }
 }
