@@ -5,11 +5,15 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "android": "react-native run-android"
   },
   "dependencies": {
+    "@types/socket.io": "^2.1.2",
+    "@types/socket.io-client": "^1.4.32",
     "react": "16.6.3",
-    "react-native": "0.57.8"
+    "react-native": "0.57.8",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "@types/jest": "23.3.10",
